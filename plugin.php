@@ -5,7 +5,7 @@ Plugin URI: https://github.com/1Conan/404-redirect-YOURLS
 Description: A simple plugin which sets the 404 header for unkown links.
 Version: 1.0
 Author: 1Conan
-Author URI: https://1conan.com/
+Author URI: https://github.com/1Conan
 */
 
 // No direct call
