@@ -18,9 +18,9 @@ function conan_setheader_404() {
 		$handle = curl_init('http://'. $_SERVER["HTTP_HOST"] .'/'.CON_404_PAGE);
 		curl_exec($handle);
 	} else if (ini_get('allow_url_fopen')) {
-		echo file_get_contents(CON_404_PAGE);
+		echo file_get_contents('http://'. $_SERVER["HTTP_HOST"] .'/'.CON_404_PAGE);
 	} else {
-		yourls_redirect( CON_404_PAGE, 404 );
+		yourls_redirect( 'http://'. $_SERVER["HTTP_HOST"] .'/'.CON_404_PAGE, 404 );
 	}
 	die();
-}	
+}
