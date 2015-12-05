@@ -3,7 +3,7 @@
 	Plugin Name: 404-Redirect
 	Plugin URI: https://github.com/1Conan/404-redirect-YOURLS
 	Description: A simple plugin which sets the 404 header and shows the 404 page for unknown links.
-	Version: 1.2
+	Version: 1.3
 	Author: 1Conan
 	Author URI: https://github.com/1Conan
 */
