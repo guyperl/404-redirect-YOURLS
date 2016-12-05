@@ -6,6 +6,7 @@ Plugin for [YOURLS](http://yourls.org).
 Description
 -----------
 A simple plugin that will set the 404 header if the link ID is unknown.
+This was made due to the weird configs I have on my nginx install which caused nginx not to give a 404 error page but just a blank white page.
 
 
 Installation
@@ -24,7 +25,7 @@ Released under the [MIT](https://github.com/1Conan/404-redirect-YOURLS/blob/mast
 
 Contact and bug reports
 -----------------------
-You may contact me at admin@1conan.com for further questions.
+You may contact me at me[at]1conan.com for further questions.
 
 If you find a bug, please kindly open an issue here.
 
